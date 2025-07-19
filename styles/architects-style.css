@@ -38,8 +38,6 @@ body{
     border: 1px solid #FF900E;
     font-weight: 600;
     font-size: 1.25rem;
-    width: 180px;
-    height: 64px;
 }
 
 .text-primary{
@@ -133,16 +131,42 @@ main > section{
 }
 
 /* features will enjoy styles */
-.features-item{
-    background-color: white;
-    width: 586px;
-    height: 171px;
-    padding: 30px;
-    border-radius: 8px;
+.features{
+    gap: 140px;
 }
 
-/* some facts styles */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
 
+.features-item .features-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.features-item{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+/* some facts styles */
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -243,3 +267,4 @@ main > section{
         justify-items: center;
     }
 }
+
